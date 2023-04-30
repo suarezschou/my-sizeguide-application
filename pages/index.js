@@ -29,8 +29,8 @@ export default function Home() {
           <div>
           <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/drawing.svg"
+          alt="measuring tape on breast"
           width={180}
           height={37}
           priority
@@ -49,8 +49,8 @@ export default function Home() {
 
             <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/drawing2.svg"
+          alt="measuring tape under breast"
           width={180}
           height={37}
           priority
@@ -69,8 +69,8 @@ export default function Home() {
 
           <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/drawing3.svg"
+          alt="measuring tape on waist"
           width={180}
           height={37}
           priority

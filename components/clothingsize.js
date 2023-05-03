@@ -24,7 +24,7 @@ function ClothingSize ({ inputs }) {
   
     return (
       <div>
-        <p className='text-2xl py-10 text-blue-500'>{size}</p>
+        <p className='text-4xl py-10"'>{size}</p>
       </div>
     );
   

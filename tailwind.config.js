@@ -6,9 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily:{
+      display: ["Assistant"],
     extend: {
-      fontFamily:{
-        assistant: ["var(--font-assistant"]
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

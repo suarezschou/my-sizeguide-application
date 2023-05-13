@@ -5,7 +5,7 @@ import ClothingSize from '../components/clothingsize.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const assistant = Assistant({ 
+const display = Assistant({ 
   subsets: ['latin'],
   weight:["400"],
   variable:"--font-assistant",
@@ -26,7 +26,7 @@ export default function Home() {
   }
   return (
     <main>
-      <h1 className='text-center text-5xl py-10 text-teal-700'>
+      <h1 className='text-display text-center text-5xl py-10 text-teal-700'>
       Size-guide
     </h1>
     

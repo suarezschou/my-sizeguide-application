@@ -21,11 +21,14 @@ function ClothingSize ({ inputs }) {
     } else{
         size='size not available';  
     }
-  
+    
+    
     return (
       <div>
         <p className='bg-white text-3xl py-10 mb-30 text-transparent bg-clip-text bg-gradient-to-r
-         from-pink-500 via-purple-200 to-blue-700"'>{size}</p>
+         from-pink-500 via-purple-200 to-blue-700"'>
+          {size}
+        </p>
       </div>
     );
   

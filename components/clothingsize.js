@@ -3,7 +3,7 @@ import React from 'react';
 function ClothingSize ({ inputs }) {
     let size_a = inputs.size_a;
     let size_b = inputs.size_b;
-    let size_c = inputs.size_c;
+    let size_c = inputs.size_c; 
     let size;
   
     if (size_a >= 68 && size_a < 90 && size_b >= 62 && size_b <= 76 && size_c >= 60 && size_c <= 69 ) {
@@ -19,12 +19,13 @@ function ClothingSize ({ inputs }) {
     } else if (size_a >= 92 && size_a < 114 && size_b >= 82 && size_b <= 96 && size_c >= 82 && size_c <= 86)  {
       size = 'XXL';
     } else{
-        size='size not available';
+        size='size not available';  
     }
   
     return (
       <div>
-        <p className='text-4xl py-10 mb-30"'>{size}</p>
+        <p className='bg-white text-3xl py-10 mb-30 text-transparent bg-clip-text bg-gradient-to-r
+         from-pink-500 via-purple-200 to-blue-700"'>{size}</p>
       </div>
     );
   
